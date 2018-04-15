@@ -17,13 +17,13 @@ function destructivelyRemoveFirstKitten(name) {
   kittens.shift()
 }
 
-function appendKitten(name, array) {
-  var newKitten= [name,...array]
+function appendKitten(name, kittens) {
+  var newKitten= [name,...kittens]
   return newKitten
 }
 
-function prependKitten(name, array) {
-  return [...array, name]
+function prependKitten(name, kittens) {
+  return [...kittens, name]
 }
 
 function removeLastKitten(name) {

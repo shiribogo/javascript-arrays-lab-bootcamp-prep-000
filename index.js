@@ -22,7 +22,7 @@ function appendKitten(name,array) {
 }
 
 function prependKitten(name, array) {
-  [array, "name"...]
+  [...array, "name"]
 }
 
 function removeLastKitten(name) {
